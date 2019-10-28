@@ -1,0 +1,15 @@
+How to install local environment?
+Windows user could use git bash to execute Shell scripts
+
+#1	please install/extract/copy JDK 1.8 to folder LibertyLocalEnv, for example LibertyLocalEnv/jdk1.8.0_221
+
+#2	extract Liberty server to folder LibertyLocalEnv, for example LibertyLocalEnv/wlp
+
+#3      validate dev.properties and correct it, if required you can specify additional configurations
+
+#4	create server using script 'create.sh dev'     
+        (will be placed in folder usr/servers of wlp)
+
+#5      start server using script 'start.sh dev'
+
+#6      stop server using script 'stop.sh dev'
